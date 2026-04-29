@@ -64,13 +64,6 @@ streamlit run app1.py
 Then open the local URL shown in the terminal, usually http://localhost:8501.
 app.py vs app1.py
 <img width="682" height="351" alt="image" src="https://github.com/user-attachments/assets/263e01e5-1e49-41b8-99d1-caad91a14fb1" />
-Aspect	app.py	app1.py
-Skill source	Uses a flat skill list for direct matching.	Uses aliases mapped to canonical skills.
-Text similarity	Uses standard TF-IDF settings.	Uses TF-IDF with bigrams and English stop-word removal.
-Skill logic	Matches skills mentioned in both job description and resume without priority separation.	Separates required and preferred skills and weights them differently.
-Internship awareness	No special internship handling.	Detects internship roles and adapts scoring.
-Project score	Not included.	Included for internship-oriented evaluation.
-Complexity	Easier to explain and present.	More advanced and closer to practical shortlisting.
 
 
 
